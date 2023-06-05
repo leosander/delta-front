@@ -50,10 +50,12 @@ export function Home() {
         console.error(error);
       }
     };
+
     const handleLogout = () => {
       sessionStorage.removeItem('jwtToken');
       navigate('/login');
     };
+
     useEffect(() => {
       getAllStudents();
     }, []);

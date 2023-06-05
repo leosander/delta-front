@@ -5,7 +5,6 @@ import ProfilePicComponent from '../ProfilePicComponent';
 const Header = ({ onLogout }: { onLogout: () => void })  => {
     const avatar = sessionStorage.getItem('user_photo') ?? '';
     const userName = sessionStorage.getItem('user_name')
-   
     return (
         <HeaderContainer>
             <div>
