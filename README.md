@@ -1,6 +1,20 @@
-# Projeto em React v18
+# Gestão de alunos em React v18
 
-- Clone o projeto
-- Rode npm install
-- Em config/globals.ts aponte a API_BASE o servidor da api.
-- Inicie o servidor (npm run dev)
+### Tecnologias
+- React v18
+- Typescript
+- Styled Components
+
+### 🔧 Instalação
+
+Instalar dependências:
+```
+npm install 
+```
+
+Em config/globals.ts aponte a API_BASE para sua api.
+
+Executar o servidor do vite:
+```
+npm run dev
+```
